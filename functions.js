@@ -32,3 +32,12 @@ function createCircle(radius) {
 }
 let circle2 = createCircle(2);
 circle2.draw();
+
+// Arow Function
+const aFunc = (a, b) => a + b;
+console.log(aFunc(2, 3));
+
+
+(function() {
+    console.log("this is a function!");
+})();
