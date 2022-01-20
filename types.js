@@ -1,3 +1,5 @@
+// to time our script, check timeEnd()
+console.time('time it:');
 console.log("hi there!");
 
 let name = "James";
@@ -28,3 +30,8 @@ let myList = ["Merry", 23];
 console.log(myList, typeof myList);
 myList[2] = true;
 console.log(myList);
+
+console.table({a:1, b:2});
+
+console.warn('this is a warning!');
+console.timeEnd('time it:');
