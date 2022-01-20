@@ -3,6 +3,10 @@ console.log("hi there!");
 let name = "James";
 console.log(typeof name);
 
+// floats are just 'numbers'
+let float = 12.34;
+console.log(float, typeof float);
+
 // value undefined and type undefined.
 let number = undefined;
 console.log(typeof number); // undefined    
