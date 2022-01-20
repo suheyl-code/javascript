@@ -3,11 +3,15 @@ console.time('time it:');
 console.log("hi there!");
 
 let name = "James";
-console.log(typeof name);
+console.log(name.length, typeof name);
 
 // floats are just 'numbers'
 let float = 12.34;
 console.log(float, typeof float);
+
+// after ES6
+let newStyle = Symbol();
+console.log(newStyle, typeof newStyle);
 
 // value undefined and type undefined.
 let number = undefined;
