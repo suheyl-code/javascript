@@ -11,4 +11,15 @@ const multiSelector = document.getElementsByClassName('ordered-list');
 console.log(multiSelector[0]);
 console.log(multiSelector[1]);
 multiSelector[0].style.color = 'red';
-multiSelector[1].textContent = 'text changed!'
+multiSelector[1].textContent = 'text changed!';
+
+const p = document.createElement('p');
+p.textContent = 'this from JS';
+console.log(p);
+
+document.querySelector('.clear-tasks').addEventListener('click', function(e){
+    console.log('Button Clicked!');
+
+    e.preventDefault();
+    document.body.innerHTML = "";
+})
