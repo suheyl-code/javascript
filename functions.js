@@ -1,3 +1,25 @@
+function max(...numbers) {
+    let result = -Infinity;
+    for(let number of numbers) {
+        if (number > result) {
+            result = number;
+        }
+    }
+    return result;
+}
+console.log(max(1,46,2,7,4,87));
+
+function min(...numbers){
+    let result = +Infinity;
+    for(let number of numbers) {
+        if(number < result) {
+            result = number;
+        }
+    }
+    return result;
+}
+console.log(min(46,1,2,7,4,87));
+
 function greeting(name) {
     console.log("Hello, " + name);
 }
@@ -41,3 +63,4 @@ console.log(aFunc(2, 3));
 (function() {
     console.log("this is a function!");
 })();
+
