@@ -4,7 +4,14 @@ const person = {
 };
 const colors = ['red', 'green', 'blue'];
 
+// classic for
+console.log("\tclassic for section")
+for (let i = 0; i < colors.length; i++) {
+    console.log(colors[i]);
+}
+
 // for-in
+console.log("\n\tfor-in section")
 for (let key in person) {
     console.log(key);
     console.log(person[key]);
@@ -15,6 +22,7 @@ for (let index in colors) {
 }
 
 // for-of
+console.log("\n\tfor-of section")
 for (let color of colors) {
     console.log(color);
 }
