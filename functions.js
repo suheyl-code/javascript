@@ -1,24 +1,24 @@
 function max(...numbers) {
     let result = -Infinity;
-    for(let number of numbers) {
+    for (let number of numbers) {
         if (number > result) {
             result = number;
         }
     }
     return result;
 }
-console.log(max(1,46,2,7,4,87));
+console.log(max(1, 46, 2, 7, 4, 87));
 
-function min(...numbers){
+function min(...numbers) {
     let result = +Infinity;
-    for(let number of numbers) {
-        if(number < result) {
+    for (let number of numbers) {
+        if (number < result) {
             result = number;
         }
     }
     return result;
 }
-console.log(min(46,1,2,7,4,87));
+console.log(min(46, 1, 2, 7, 4, 87));
 
 function greeting(name) {
     console.log("Hello, " + name);
@@ -41,15 +41,15 @@ let circle = {
         y: 1
     },
     isVisible: true,
-    draw: function() { console.log("drawing...")}
+    draw: function () { console.log("drawing...") }
 };
 circle.draw();
 
-
+// Factory Function
 function createCircle(radius) {
     return {
         radius,
-        draw(){console.log("drawing...")}
+        draw() { console.log("drawing...") }
     }
 }
 let circle2 = createCircle(2);
@@ -60,7 +60,7 @@ const aFunc = (a, b) => a + b;
 console.log(aFunc(2, 3));
 
 
-(function() {
+(function () {
     console.log("this is a function!");
 })();
 
