@@ -14,15 +14,17 @@ for (let i = 0; i < colors.length; i++) {
 console.log("\n\tfor-in section")
 for (let key in person) {
     console.log(key);
-    console.log(person[key]);
+    console.log(person[key]); // have to use bracket notation.
 }
+
 for (let index in colors) {
     console.log(index);
     console.log(colors[index]);
 }
 
-// for-of
+// for-of 'Good for arrays'
 console.log("\n\tfor-of section")
 for (let color of colors) {
+    // don't need to have index, it's always value.
     console.log(color);
 }
