@@ -1,3 +1,4 @@
+// Using Spread Operator
 function max(...numbers) {
     let result = -Infinity;
     for (let number of numbers) {
