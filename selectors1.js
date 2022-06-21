@@ -23,3 +23,8 @@ document.querySelector('.clear-tasks').addEventListener('click', function(e){
     e.preventDefault();
     document.body.innerHTML = "";
 })
+
+document.getElementById("change-color").addEventListener("click",()=>{
+    document.getElementById("change-color").style.color = "red";
+
+})
