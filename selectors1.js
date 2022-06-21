@@ -28,3 +28,4 @@ document.getElementById("change-color").addEventListener("click",()=>{
     document.getElementById("change-color").style.color = "red";
 
 })
+
